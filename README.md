@@ -11,20 +11,31 @@ Estructura del CSV
 El archivo CSV debe contener los siguientes campos:
 
 CodigoEstacion: Código de la estación meteorológica.
+
 CodigoSensor: Código del sensor de medición.
+
 FechaObservacion: Fecha y hora de la observación.
+
 ValorObservado: Valor de precipitación observado (en mm).
+
 NombreEstacion: Nombre de la estación meteorológica.
+
 Departamento: Departamento donde se encuentra la estación.
+
 Municipio: Municipio de la estación.
+
 ZonaHidrografica: Zona hidrográfica.
+
 Latitud: Coordenada de latitud de la estación.
+
 Longitud: Coordenada de longitud de la estación.
+
 DescripcionSensor: Descripción del tipo de sensor.
+
 UnidadMedida: Unidad de medida utilizada (e.g., mm para precipitación).
 
-Requisitos
-Python 3.13.0
-Pandas
-Matplotlib
-Tkinter
+Requisitos:
+Python 3.13.0,
+Pandas,
+Matplotlib,
+Tkinter.
